@@ -13,7 +13,7 @@ o	Nome completo
 o	CPF (com máscara 000.000.000-00)
 o	Login
 o	E-mail
-o	Senha + Confirmação de senha (com botão para mostrar/ocultar 👁)
+o	Senha + Confirmação de senha (com botão para mostrar/ocultar)
 o	Salário (R$)
 o	Número de dependentes
 o	Cálculo automático do IR

@@ -1,0 +1,102 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f4f6f8;
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}
+
+.container {
+  background: #fff;
+  padding: 25px;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0,0,0,.1);
+  width: 400px;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.form-group {
+  margin-bottom: 15px;
+  position: relative;
+}
+
+label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+input.is-valid {
+  border-color: green;
+}
+
+input.is-invalid {
+  border-color: red;
+}
+
+.error {
+  color: red;
+  font-size: 12px;
+  display: block;
+  margin-top: 4px;
+}
+
+.password-group {
+  display: flex;
+  align-items: center;
+}
+
+.password-group input {
+  flex: 1;
+}
+
+.password-group .toggle {
+  margin-left: 5px;
+  padding: 8px 10px;
+  cursor: pointer;
+  border: none;
+  background: #ddd;
+  border-radius: 6px;
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-between;
+}
+
+button[type="submit"], button[type="reset"] {
+  padding: 10px 15px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+button[type="submit"] {
+  background: #28a745;
+  color: white;
+}
+
+button[type="reset"] {
+  background: #dc3545;
+  color: white;
+}
+
+#mensagem {
+  text-align: center;
+  font-weight: bold;
+  margin-top: 15px;
+  color: green;
+}
